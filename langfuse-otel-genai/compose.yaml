@@ -1,0 +1,11 @@
+# Only the collector runs here. Point LANGFUSE_HOST at Langfuse Cloud (free tier) or a self-hosted Langfuse
+# started from its own official compose file (it needs Postgres, ClickHouse, Redis and S3, so it is not copied here).
+services:
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.111.0
+    command: ["--config=/etc/otel/config.yaml"]
+    env_file: .env
+    volumes:
+      - ./otel-collector.yaml:/etc/otel/config.yaml:ro
+    ports:
+      - "4318:4318"

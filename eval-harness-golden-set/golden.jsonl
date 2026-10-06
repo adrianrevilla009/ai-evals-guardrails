@@ -1,0 +1,8 @@
+{"id": "g1", "input": "Where is my order 1001? It has not arrived", "expected": "shipping"}
+{"id": "g2", "input": "I was charged twice for order 1002", "expected": "billing"}
+{"id": "g3", "input": "Please cancel order 1003 before it ships", "expected": "cancel"}
+{"id": "g4", "input": "The parcel for order 1004 is late", "expected": "shipping"}
+{"id": "g5", "input": "Refund the invoice for order 1005", "expected": "billing"}
+{"id": "g6", "input": "I want to cancel my order", "expected": "cancel"}
+{"id": "g7", "input": "Tracking says delivered but nothing came", "expected": "shipping"}
+{"id": "g8", "input": "My card payment failed on order 1008", "expected": "billing"}

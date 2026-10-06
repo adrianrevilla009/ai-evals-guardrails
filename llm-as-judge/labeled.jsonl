@@ -1,0 +1,10 @@
+{"id": "j1", "question": "What is the refund window for orders?", "answer": "Orders can be refunded within 30 days; the refund window starts at delivery.", "human": "pass"}
+{"id": "j2", "question": "When will my order ship?", "answer": "Your order ships within 2 business days.", "human": "pass"}
+{"id": "j3", "question": "How do I cancel my order?", "answer": "Our company was founded in 2009.", "human": "fail"}
+{"id": "j4", "question": "Which carriers deliver orders?", "answer": "We use several carriers to deliver orders.", "human": "pass"}
+{"id": "j5", "question": "Can I change the delivery address?", "answer": "Great weather today!", "human": "fail"}
+{"id": "j6", "question": "What payment methods are accepted?", "answer": "We accept card and bank transfer as payment methods.", "human": "pass"}
+{"id": "j7", "question": "How long does shipping take?", "answer": "Please contact our legal department.", "human": "fail"}
+{"id": "j8", "question": "Is express shipping available?", "answer": "Express shipping is available for most orders.", "human": "pass"}
+{"id": "j9", "question": "How can I track my parcel?", "answer": "Use the tracking link in your confirmation email to track the parcel.", "human": "pass"}
+{"id": "j10", "question": "Do you ship abroad?", "answer": "I like turtles.", "human": "fail"}
